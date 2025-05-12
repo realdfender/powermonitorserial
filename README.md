@@ -10,7 +10,7 @@ First value is an ID number.
 
 Esp home yaml config example:
 
-
+'''
 external_components:
   - source:
       type: git
@@ -64,4 +64,5 @@ sensor:
       unit_of_measurement: "W"
       accuracy_decimals: 1
       icon: "mdi:lightning-bolt"
+      '''
 
