@@ -38,7 +38,7 @@ void PowerMonitorSerial::parse_values_() {
   }
 }
 
-void powermonitorserial::dump_config() {
+void PowerMonitorSerial::dump_config() {
   ESP_LOGCONFIG("", "Power Monitor Serial");
   for (auto sens : this->sensors_) {
     ESP_LOGCONFIG(TAG, "Index %d", sens.first);
