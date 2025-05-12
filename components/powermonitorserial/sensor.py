@@ -9,7 +9,7 @@ DEPENDENCIES = ['uart']
 
 serial_ns = cg.esphome_ns.namespace('serial')
 
-SerialCSV = serial_ns.class_('PowerMonitorSerial', cg.Component, sensor.Sensor, uart.UARTDevice)
+PowerMonitorSerial = serial_ns.class_('PowerMonitorSerial', cg.Component, sensor.Sensor, uart.UARTDevice)
 
 
 CONFIG_SCHEMA = uart.UART_DEVICE_SCHEMA.extend(
