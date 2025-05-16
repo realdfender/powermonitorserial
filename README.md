@@ -2,7 +2,7 @@ Made to read the serial data of the Lechacal.com power / current sensors
 
 Based on the code from @ssieb - serial_csv.
 
-Added filter for minimum power sice my lechacal sensors is old and 50A - Noise is a bit.
+Added filter for minimum power sice my lechacal sensors is old and 50A - Noise is a bit high.
 
 
 First value is an ID number.
