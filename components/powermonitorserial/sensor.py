@@ -16,7 +16,7 @@ CONFIG_SCHEMA = uart.UART_DEVICE_SCHEMA.extend(
     {
         cv.GenerateID(): cv.declare_id(PowerMonitorSerial),
         cv.Required(CONF_SENSORS): cv.ensure_list(
-            sensor.sensor_schema.extend(
+            sensor.SENSOR_SCHEMA.extend(
                 {
                     cv.Required(CONF_INDEX): cv.positive_int,
                 }
